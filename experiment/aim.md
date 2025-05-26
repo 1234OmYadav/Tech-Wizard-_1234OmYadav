@@ -1,1 +1,1 @@
-### Aim of the experiment
+## Study dsb/ssb Amplitude Modulation and determine its modulation factor 
