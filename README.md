@@ -4,24 +4,23 @@
 <b>Discipline | <b>Tech Wizard
 :--|:--|
 <b> Lab | <b> cummmunication lab
-<b> Experiment|     <b> 1) To study dsb/ssb Amplitude Modulation and determine its modulation factor 
-2)To study of single bit error detection and correction using hammer code.
-3)To study of quadrature phase shift keying Modulator and demodulator.
-4) To construction a square wave with the help of fundamental frequency of its harmonic component.
+<b> Experiment|     <b> Experiment1 1) To study dsb/ssb Amplitude Modulation and determine its modulation factor 
 
-### About the Experiment 
 
-Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> TECH WIZARD
+
+
+<b>Name of Developer | <b> Rajeev sir
 :--|:--|
 <b> Institute | <b>  REC KANNAUJ
-<b> Email id|     <b> omy6260@gmail.com 
-<b> Department |  Electronics
+<b> Email id|     <b> rajeev@reck.ac.in
+<b> Department |  Electronics Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 |  Nikita Yadav | Rajeev sir | Electronics Engineering | Rec kannauj | nikitayadav23456@gmail.com
+2 |Kiran Gond  | Rajeev sir | Computer Science| Rec kannauj | kirangond2439@gmail.com
+3 | OM Yadav  |  Rajeev sir | Electronics Engineering | Rec kannauj | omy6260@gmail.com
+4 | Anand Chaurasia |  Rajeev sir | Electronics Engineering | Rec kannauj | anandchaurasia4321@gmail.com
