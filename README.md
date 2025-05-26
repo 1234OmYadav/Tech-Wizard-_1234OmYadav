@@ -1,20 +1,23 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Tech Wizard
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> cummmunication lab
+<b> Experiment|     <b> 1) To study dsb/ssb Amplitude Modulation and determine its modulation factor 
+2)To study of single bit error detection and correction using hammer code.
+3)To study of quadrature phase shift keying Modulator and demodulator.
+4) To construction a square wave with the help of fundamental frequency of its harmonic component.
 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> TECH WIZARD
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  REC KANNAUJ
+<b> Email id|     <b> omy6260@gmail.com 
+<b> Department |  Electronics
 
 ### Contributors List
 
