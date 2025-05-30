@@ -57,37 +57,29 @@ Where:
 
 𝐴
 𝑐
-A 
-c
-​
+ 
  : Carrier amplitude
 
 𝐴
 𝑚
-A 
-m
-​
+ ​
  : Message signal amplitude
 
 𝑓
 𝑐
-f 
-c
+ 
 ​
  : Carrier frequency
 
 𝑓
 𝑚
-f 
-m
-​
+ 
  : Message frequency
 
 Spectrum: Includes carrier 
 𝑓
 𝑐
-f 
-c
+ 
 ​
  , upper sideband 
 𝑓
@@ -97,7 +89,7 @@ c
 𝑚
 f 
 c
-​
+​ 
  +f 
 m
 ​
@@ -184,9 +176,7 @@ m
 
 𝐴
 𝑐
-A 
-c
-​
+ 
  : Amplitude of the carrier signal
 
 🔹 In terms of waveform (using CRO):
@@ -194,15 +184,13 @@ If you observe the modulated wave on a CRO:
 
 𝑉
 max
-V 
-max
+ 
 ​
  : Maximum value of the envelope
 
 𝑉
 min
-V 
-min
+ n
 ​
  : Minimum value of the envelope
 
