@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of Double Sideband Amplitude Modulation (DSB-AM)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To transmit information by varying the amplitude of a carrier wave",
+        "b": "To transmit information by varying the frequency of a carrier wave",
+        "c": "To transmit information by varying the phase of a carrier wave",
+        "d": "To transmit information without any modulation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! DSB-AM varies the amplitude of a carrier wave to transmit information.",
+        "b": "Incorrect. This describes Frequency Modulation (FM).",
+        "c": "Incorrect. This describes Phase Modulation (PM).",
+        "d": "Incorrect. Modulation is essential for transmitting information."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In DSB-AM, what are the two sidebands that are produced?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Upper Sideband (USB) and Lower Sideband (LSB)",
+        "b": "Upper Sideband (USB) and Carrier",
+        "c": "Lower Sideband (LSB) and Carrier",
+        "d": "Only the Carrier"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! DSB-AM produces both USB and LSB.",
+        "b": "Incorrect. The carrier is not a sideband.",
+        "c": "Incorrect. The carrier is not a sideband.",
+        "d": "Incorrect. The carrier is not a sideband."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the modulation factor in amplitude modulation?",
+      "answers": {
+        "a": "The ratio of the peak amplitude of the modulating signal to the amplitude of the carrier signal",
+        "b": "The frequency of the carrier signal",
+        "c": "The total power of the modulated signal",
+        "d": "The bandwidth of the modulated signal"
+      },
+      "explanations": {
+        "a": "Correct! The modulation factor is defined as the ratio of the peak amplitude of the modulating signal to the amplitude of the carrier signal.",
+        "b": "Incorrect. The frequency of the carrier signal is not the modulation factor.",
+        "c": "Incorrect. Total power is not related to the modulation factor.",
+        "d": "Incorrect. Bandwidth is not the modulation factor."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a key advantage of Single Sideband Amplitude Modulation (SSB-AM) over DSB-AM?",
+      "answers": {
+        "a": "SSB-AM uses less bandwidth",
+        "b": "SSB-AM is easier to implement",
+        "c": "SSB-AM transmits both sidebands",
+        "d": "SSB-AM requires more power"
+      },
+      "explanations": {
+        "a": "Correct! SSB-AM uses less bandwidth compared to DSB-AM.",
+        "b": "Incorrect. SSB-AM is generally more complex to implement.",
+        "c": "Incorrect. SSB-AM transmits only one sideband.",
+        "d": "Incorrect. SSB-AM is more power-efficient."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens if the modulation factor exceeds 1 in amplitude modulation?",
+      "answers": {
+        "a": "The signal becomes distorted",
+        "b": "The signal is transmitted without any issues",
+        "c": "The carrier signal is lost",
+        "d": "The bandwidth increases significantly"
+      },
+      "explanations": {
+        "a": "Correct! A modulation factor greater than 1 leads to distortion in the signal.",
+        "b": "Incorrect. Exceeding the modulation factor leads to issues.",
+        "c": "Incorrect. The carrier signal is not lost but distorted.",
+        "d": "Incorrect. Bandwidth does not necessarily increase with distortion."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
