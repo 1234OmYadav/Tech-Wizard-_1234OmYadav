@@ -55,33 +55,15 @@ c
  t)
 Where:
 
-𝐴
-𝑐
- 
- : Carrier amplitude
+𝐴c: Carrier amplitude
 
-𝐴
-𝑚
- ​
- : Message signal amplitude
+𝐴m : Message signal amplitude
 
-𝑓
-𝑐
- 
-​
- : Carrier frequency
+𝑓c: Carrier frequency
 
-𝑓
-𝑚
- 
- : Message frequency
+𝑓m: Message frequency
 
-Spectrum: Includes carrier 
-𝑓
-𝑐
- 
-​
- , upper sideband 
+Spectrum: Includes carrier fc, upper sideband 
 𝑓
 𝑐
 +
