@@ -1,219 +1,48 @@
- 
-🔷 What is Amplitude Modulation (AM)?
-Amplitude Modulation (AM) is a modulation technique in which the amplitude of the carrier wave is varied in proportion to the message signal (modulating signal), while the frequency and phase remain constant.
+1. Amplitude Modulation (AM) :
+Amplitude Modulation (AM) is a technique used in electronic communication to transmit information over a carrier wave. In AM, the amplitude of a high-frequency carrier signal is varied in accordance with the instantaneous amplitude of the modulating signal, which contains the information to be transmitted.
 
-🔷 Types of Amplitude Modulation:
-There are several types of AM, but two important ones used in this experiment are:
+2. Double Sideband Amplitude Modulation (DSB-AM):
+In Double Sideband Amplitude Modulation (DSB-AM), both the upper and lower sidebands are transmitted along with the carrier signal. The modulated signal can be mathematically expressed as:
 
-🔹 1. DSB-FC (Double Sideband Full Carrier) Modulation:
-In DSB-FC, both the upper and lower sidebands are transmitted along with the carrier.
+$ s(t) = [A_c + m(t)] \cos(2\pi f_c t) $
 
-Mathematical Expression:
+where:
 
-𝑠
-(
-𝑡
-)
-=
-[
-𝐴
-𝑐
-+
-𝐴
-𝑚
-cos
-⁡
-(
-2
-𝜋
-𝑓
-𝑚
-𝑡
-)
-]
-cos
-⁡
-(
-2
-𝜋
-𝑓
-𝑐
-𝑡
-)
-s(t)=[A 
-c
-​
- +A 
-m
-​
- cos(2πf 
-m
-​
- t)]cos(2πf 
-c
-​
- t)
+s(t) is the modulated signal,
+Ac is the amplitude of the carrier,
+m(t) is the modulating signal,
+fc is the frequency of the carrier.
+The DSB-AM signal contains two sidebands:
+
+Upper Sideband (USB): 
+Lower Sideband (LSB): 
+The presence of both sidebands means that DSB-AM is less efficient in terms of bandwidth and power usage, as both sidebands carry the same information.
+
+3. Single Sideband Amplitude Modulation (SSB-AM)
+Single Sideband Amplitude Modulation (SSB-AM) is a more efficient form of amplitude modulation where only one of the sidebands (either the upper or lower) is transmitted, eliminating the carrier and the other sideband. This results in a significant reduction in bandwidth and power consumption.
+
+The SSB signal can be represented as:
+
+$ s(t) = A_m \cos(2\pi f_m t) \cos(2\pi f_c t) - A_m \sin(2\pi f_m t) \sin(2\pi f_c t) $
+
+This representation shows that SSB modulation effectively conveys the same information as DSB but occupies less bandwidth.
+
+4. Modulation Factor
+The modulation factor (or modulation index) is defined as the ratio of the peak amplitude of the modulating signal to the amplitude of the carrier signal:
+
+$ m = \frac{A_m}{A_c} $
+
 Where:
 
-𝐴c: Carrier amplitude
+m is the modulation factor,
+Am is the peak amplitude of the modulating signal,
+Ac is the amplitude of the carrier signal.
+A modulation factor of $m < 1$ ensures that the modulated signal does not distort, while $m = 1$ represents 100% modulation. If $m > 1$, distortion occurs, leading to signal degradation.
 
-𝐴m : Message signal amplitude
+Summary
+In summary, DSB-AM and SSB-AM are two important techniques in amplitude modulation. DSB-AM transmits both sidebands and the carrier, while SSB-AM transmits only one sideband, making it more efficient. Understanding the modulation factor is crucial for ensuring optimal performance in communication systems.
 
-𝑓c: Carrier frequency
 
-𝑓m: Message frequency
 
-Spectrum: Includes carrier fc, upper sideband 
-𝑓
-𝑐
-+
-𝑓
-𝑚
-f 
-c
-​ 
- +f 
-m
-​
- , and lower sideband 
-𝑓
-𝑐
-−
-𝑓
-𝑚
-f 
-c
-​
- −f 
-m
-​
- .
 
-🔹 2. SSB (Single Sideband) Modulation:
-In SSB, only one sideband (either upper or lower) is transmitted. The carrier and the other sideband are suppressed.
 
-This reduces bandwidth and power consumption.
-
-Spectrum: Contains only one sideband (either 
-𝑓
-𝑐
-+
-𝑓
-𝑚
-f 
-c
-​
- +f 
-m
-​
-  or 
-𝑓
-𝑐
-−
-𝑓
-𝑚
-f 
-c
-​
- −f 
-m
-​
- ).
-
-Types of SSB:
-
-SSB-SC: Single Sideband Suppressed Carrier
-
-SSB-FC: Single Sideband with Full Carrier (less common)
-
-🔷 Modulation Index (Modulation Factor)
-The modulation index (or modulation factor) in AM is a measure of the extent of modulation applied to the carrier signal.
-
-🔹 Formula:
-𝑚
-=
-𝐴
-𝑚
-𝐴
-𝑐
-m= 
-A 
-c
-​
- 
-A 
-m
-​
- 
-​
- 
-Where:
-
-𝐴
-𝑚
-A 
-m
-​
- : Amplitude of the modulating signal
-
-𝐴
-𝑐
- 
- : Amplitude of the carrier signal
-
-🔹 In terms of waveform (using CRO):
-If you observe the modulated wave on a CRO:
-
-𝑉
-max
- 
-​
- : Maximum value of the envelope
-
-𝑉
-min
- n
-​
- : Minimum value of the envelope
-
-𝑚
-=
-𝑉
-max
-−
-𝑉
-min
-𝑉
-max
-+
-𝑉
-min
-m= 
-V 
-max
-​
- +V 
-min
-​
- 
-V 
-max
-​
- −V 
-min
-​
- 
-​
- 
-✅ Ideal Range: 
-0
-≤
-𝑚
-≤
-1
-0≤m≤1.
-✅ Overmodulation: 
-𝑚
->
-1
-m>1 — causes distortion
