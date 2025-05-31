@@ -1,1 +1,1 @@
-## Experiment name
+Dsb/Ssb Amplitude Modulation
